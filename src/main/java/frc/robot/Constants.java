@@ -19,10 +19,10 @@ public final class Constants {
   public static class ShooterConstants {
     public static final int kLeftShooterMotorId = 31;
     public static final int kRightShooterMotorId = 4;
-    public static final double TargetSpeed = 0;
-    public static final double ShooterSpeed = 0.8;
-    public static final double kSpeakerShootingSpeed = 0.8; //0.7;
-    public static final double TargetSpeedError = 0;
+    public static final double TargetSpeed = 0.5;
+    public static final double ShooterSpeed = 0.5;
+    public static final double kSpeakerShootingSpeed = 0.5; //0.7;
+    public static final double TargetSpeedError = 0.1;
     public static final double kP = 0.02;
     public static final double kI = 0;
     public static final double kD = 0;
