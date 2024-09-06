@@ -106,11 +106,11 @@ public class Shooter extends SubsystemBase {
   }
 
   public double getSpeedLeft() {
-    return leftMotor.get();
+    return leftMotor.getVelocityAsDouble();
   }
 
   public double getSpeedRight() {
-    return rightMotor.get();
+    return rightMotor.getVelocityAsDouble();
   }
 
   public boolean reachedTargetSpeed() {
